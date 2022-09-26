@@ -1,4 +1,4 @@
-FROM mikarmar/basic-deploy-oryx:latest
+FROM rathordocker/dotnet7:azfunc-jamstack-debian-bullseye-20220923.1
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
