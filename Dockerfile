@@ -1,7 +1,4 @@
-# FROM rathordocker/dotnet7:rc1val
-# FROM rathordocker/is_static_export:v1
-FROM rathordocker/dotnet7:rc1val
-# FROM rathordocker/bullseye:october1
+FROM rathordocker/bullseye:staticpython4
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
